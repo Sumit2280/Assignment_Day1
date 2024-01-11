@@ -1,0 +1,219 @@
+    1  ls
+    2  pws
+    3  jwd
+    4  pwd
+    5  git init
+    6  git config --list
+    7  git config --global user.email sumitdone123@gmail.com
+    8  git config --global user.name Sumit2280
+    9  git config --list
+   10  git init
+   11  nano demo.txt
+   12  ls
+   13  git statis
+   14  git status
+   15  git add .
+   16  git status
+   17  git commit
+   18  git status
+   19  git log
+   20  git reset --soft HEAD~
+   21  git reset --soft HEAD~
+   22  git reset --soft HEAD~
+   23  git log
+   24  git reset --hard HEAD~
+   25  git reset --hard HEAD
+   26  git log
+   27  git reset --soft HEAD
+   28  git status
+   29  git log
+   30  pwd
+   31  ls
+   32  nano demo.txt
+   33  git status
+   34  git commit -m "single line commit"
+   35  git commit -a "single line commit"
+   36  git commit -m "single line commit"
+   37  git log
+   38  git status
+   39  git commit -m "Commit
+   40  "
+   41  git stash
+   42  git stash list
+   43  git add .
+   44  git commit -m "second commit"
+   45  git status
+   46  git log
+   47  git stash pop
+   48  git status
+   49  git log
+   50  git commit -m "Second Commit"
+   51  git add .
+   52  git commit -m "Second Commit"
+   53  git status
+   54  git log
+   55  git remote
+   56  git remote add origin https://github.com/Sumit2280/Training_Day1.git
+   57  git remote -v
+   58  git remote
+   59  git push origin master
+   60  ssh-keygen
+   61  cat /c/Users/SUMIT/.ssh/id_rsa
+   62  cat /c/Users/SUMIT/.ssh/id_rsa.pub
+   63  cat C\Users\SUMIT\Desktop\Josh_Training
+   64  cat C\Users\SUMIT\Desktop\Josh_Training
+   65  ls
+   66  cat Josh_Training.pub
+   67  git remote remove origin
+   68  git remote add origin git@github.com:Sumit2280/Training_Day1.git
+   69  git push origin master
+   70  git push origin master
+   71  git push origin master
+   72  git remote -v
+   73  ssh-keygen
+   74  git push origin master
+   75  git branch
+   76  git init
+   77  nano Assignment.txt
+   78  ls
+   79  git add .
+   80  git status
+   81  git log
+   82  git commit -m "First Commmit"
+   83  git status
+   84  git log
+   85  git branch -m branch1
+   86  git log
+   87  git checkout branch2
+   88  git checkout branch1
+   89  nano test1.txt
+   90  git add .
+   91  git commit -m "First branch commit"
+   92  git log
+   93  git checkout master
+   94  git show
+   95  git show --oneliner
+   96  git show --oneline
+   97  git checkout -B master
+   98  git show
+   99  git log
+  100  git branch
+  101  git branch branch2
+  102  git branch
+  103  git checkout -b branch2
+  104  git checkout -B branch2
+  105  nano test2.txt
+  106  git add .
+  107  git commit -m "Second branch commit"
+  108  git lof
+  109  git log
+  110  git checkout -B master
+  111  git log
+  112  nano test3.txt
+  113  git status
+  114  git diff
+  115  git add .
+  116  git status
+  117  git restore --staged test3.txt
+  118  git status
+  119  git add .
+  120  git commit -m "Second commit on master branch"
+  121  git status
+  122  git lof
+  123  git log
+  124  nano test3.txt
+  125  git diff
+  126  git add .
+  127  git commit -m "updated the new file in master branch"
+  128  git status
+  129  git reset --soft HEAD
+  130  git status
+  131  nano test3.txt
+  132  git reset --soft HEAD
+  133  git status
+  134  git log
+  135  git reset --soft HEAD~1
+  136  git status
+  137  git log
+  138  git commit -m "commit after soft reset"
+  139  git log
+  140  git reset --hard HEAD~1
+  141  git log
+  142  nano test3.txt
+  143  git log
+  144  git config --list
+  145  git origin
+  146  git remote -v
+  147  git remote add origin git@github.com:Sumit2280/Training_Day1.git
+  148  git push -u master
+  149  git push master
+  150  history
+  151  clear
+  152  git log
+  153  git push -u origin master
+  154  git push --help
+  155  git push origin master
+  156  git branch
+  157  git origin
+  158  git remote -v
+  159  git fetch
+  160  git push origin master
+  161  git branch
+  162  git pull
+  163  git pull master
+  164  git pull git@github.com:Sumit2280/Training_Day1.git
+  165  git push origin master
+  166  git remote add origin git@github.com:Sumit2280/Assignment_Day1.git
+  167  git remote -v
+  168  git remote set-url git@github.com:Sumit2280/Assignment_Day1.git
+  169  git remote -v
+  170  git remote set-url git@github.com:Sumit2280/Assignment_Day1.git
+  171  git remote set-url --push git@github.com:Sumit2280/Assignment_Day1.git
+  172  git remote -v
+  173  git remote add upstream git@github.com:Sumit2280/Assignment_Day1.git
+  174  git push upstram master
+  175  git push upstream master
+  176  git branch
+  177  git push upstream branch 1
+  178  git push upstream branch1
+  179  git push upstream branch2
+  180  git checkout -B branch1
+  181  git log
+  182  ls
+  183  nano test1.txt
+  184  git show
+  185  git diff
+  186  git add .
+  187  git status
+  188  git commit -m "second commit on branch1"
+  189  git status
+  190  git push upstream branch1
+  191  git show
+  192  git checkout -B master
+  193  nano Assignment.txt
+  194  git add .
+  195  git commit -m "another commit on master branch"
+  196  git push upstream master
+  197  git show
+  198  git merge
+  199  clear
+  200  historu
+  201  clear
+  202  history
+  203  nano Assignment.txt
+  204  stash Assignment.txt
+  205  git stash Assignment.txt
+  206  git stash Assignment.txt
+  207  git stash
+  208  git stash list
+  209  git stash pop
+  210  git add .
+  211  git status
+  212  git commit -m "final commit on master branch"
+  213  git push upstream master
+  214  git show
+  215  git log
+  216  git clear
+  217  clear
+  218  history
+ 
